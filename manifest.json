@@ -1,0 +1,28 @@
+{
+	"developer":        {
+		"name": "Jakob Shoptaw",
+		"url":  "https://github.com/jshoptaw/address-bar-subreddit-shortcut/"
+	},
+	"author":           "Jakob Shoptaw",
+	"homepage_url":     "https://github.com/jshoptaw/address-bar-subreddit-shortcut/",
+	"description":      "Allows one to go directly to a subreddit on Reddit by simply typing \"/r/[subreddit]\" (where \"[subreddit]\" is the subreddit name/slug) into the address bar.",
+	"manifest_version": 2,
+	"name":             "Address Bar Subreddit Shortcut",
+	"version":          "1.0.0",
+	"icons":            {
+		"48": "images/icon-48.png",
+		"96": "images/icon-96.png"
+	},
+
+	"permissions": [
+		"webNavigation",
+		"tabs"
+	],
+ 
+	"background": {
+		"scripts": [
+			"js/background.js"
+		]
+	}
+
+}
